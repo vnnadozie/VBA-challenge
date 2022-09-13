@@ -28,7 +28,7 @@ Sub Module2()
     Sum_Rows = 2
 
     'Loop through all Tickers
-    For i = 2 To 22771
+    For i = 2 To 753001
         
         'Check if the Ticker is the same, if it is not...
         If (Cells(i + 1, 1).Value <> Cells(i, 1).Value) Then
